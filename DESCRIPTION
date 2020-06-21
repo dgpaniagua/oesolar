@@ -1,0 +1,12 @@
+Package: OESolar
+Type: Package
+Title: Diseño de sistemas fotovoltáicos y análisis de datos de energía descargados de Optimum
+Version: 0.1.1
+Author: Daniel G. Paniagua
+Maintainer: Daniel G. Paniagua <dgpaniagua1989@gmail.com>
+Description: Diseño de sistemas fotovoltaicos conectados a red a partir de datos de radiación solar global y parámetros del sistema, incluyendo funciones para descarga directa de datos de radiación solar de base de datos Nasa. El cálculo de los sistemas fotovoltáicos se realiza utilizando el package 'solaR'. Por otra parte, incluye funciones para descargar, de sistema Optimum, datos de generación y consumo de medidores del proyecto PRIER Armstrong, permitiendo el posterior análisis y cálculo de valores de PR diarios y mensuales.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Imports: dplyr, eplusr, lubridate, nasapower, readxl, reticulate, solaR, tools, xts, zoo, stats
