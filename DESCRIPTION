@@ -10,3 +10,4 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0
 Imports: dplyr, eplusr, lubridate, nasapower, readxl, reticulate, solaR, tools, xts, zoo, stats
+URL: https://github.com/dgpaniagua/oesolar
